@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GTMotionAnimator_Example' do
+  pod 'GTMotionAnimator', :path => '../'
+
+  target 'GTMotionAnimator_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
