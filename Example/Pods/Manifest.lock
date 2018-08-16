@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GTCatalog (0.0.1)
+  - GTMotionAnimator (0.0.1):
+    - GTMotionInterchange (~> 0.0.2)
+  - GTMotionInterchange (0.0.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GTCatalog
+  - GTMotionAnimator (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+    - GTCatalog
+    - GTMotionInterchange
+
+EXTERNAL SOURCES:
+  GTMotionAnimator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GTCatalog: d6bb60421469aaaf6bee50c6419881427843809a
+  GTMotionAnimator: 4dd7474b63f3a35ac368103cb33a69b2d286d255
+  GTMotionInterchange: feec7166c3389a727f52e7bdda24f09298fc411f
+
+PODFILE CHECKSUM: f17b64a8233130955e7e66d2de88061512de857b
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,6 @@
+framework module Pods_GTMotionAnimator_Example {
+  umbrella header "Pods-GTMotionAnimator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

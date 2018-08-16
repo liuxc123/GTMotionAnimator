@@ -1,0 +1,1562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D1473333CD59B962DB669C7D8DCEDA /* Pods-GTMotionAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 729486BC2048B973AFD544B93C1ED210 /* Pods-GTMotionAnimator_Example-dummy.m */; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 1198CE63FD95D8D524F418369DF7CF81 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0611D91706D4157C1755C65417C89E74 /* GTMBlockAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CDBB85CCD898B7CDED2364F66202C4A /* GTMBlockAnimations.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F98EF558F85DA452F51518B426E99F3B /* UIApplication+StrictKeyWindow.m */; };
+		09954DE5233F3BA63F59948A70608D6A /* GTMotionInterchange-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8405CD3725B348D788AEFEF36A6FD4C4 /* GTMotionInterchange-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A894AE3433D3DAF9F9020D0FF98658C /* CABasicAnimation+MotionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C2FCA8F8C92953998656AF6A51654 /* CABasicAnimation+MotionAnimator.m */; };
+		0A92335BC9B31EE193AC79CD395C60D5 /* CATransaction+MotionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D6603EA4C5557ECAF4B5F175ECD83BCD /* CATransaction+MotionAnimator.m */; };
+		10E49F78576B83D1D1C4422B87069D35 /* GTMSubclassingRestricted.h in Headers */ = {isa = PBXBuildFile; fileRef = C403A5D244F5E9C7B66B6F94EC016994 /* GTMSubclassingRestricted.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		129670419CF6D3695AB142DC656626D6 /* GTFRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2266946B70365A445CFE0CE1FFE7F9C7 /* GTFRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16C24CF57846D08431CC37D855263AEE /* GTMotionInterchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB0E348FA847E7E96DD35B3161E5DB5 /* GTMotionInterchange.framework */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EBD4BFDD44BBB5A7C31311489BBE61 /* SwiftSupport.swift */; };
+		1B9BEDB26F0E788322A4F68AA3114733 /* GTMAnimationRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4677225C15CB739DAB54528220624E /* GTMAnimationRegistrar.m */; };
+		29528176556F20BC1AEBC225D371E81A /* GTMDragCoefficient.m in Sources */ = {isa = PBXBuildFile; fileRef = EA58133FCBB06F11617018D015320B4A /* GTMDragCoefficient.m */; };
+		2CC454F9DCAD381E7D8B840E5F514429 /* GTFCatalogExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 269E3D75CD13F94BCF0D525BD8F5F6BD /* GTFCatalogExample.h */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AFE571856ADD1A8A1CE1343A70A00A /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FCA1F27211A60D114411895A4DFC32 /* GTMSpringTimingCurveGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E34BFB975E64C5075647984C77333579 /* GTMSpringTimingCurveGenerator.m */; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E68980179825933D22754B92EF330 /* UIImage+Diff.m */; };
+		3E02DB8A75A039A9A5C11A88681E18FA /* GTMUIKitValueCoercion.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFEBDBB1862E3789908067AC01BC1B4 /* GTMUIKitValueCoercion.m */; };
+		3E2B748E09CC94B3C4E1F0996F036DFE /* GTMMotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DA1F2D31747C09F41DF48FB76C36317 /* GTMMotionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A4D968F143C83DFF7793FBF5A86BE03 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4D693D85744ABCF4C885ECC644D879A0 /* GTMRepetition.h in Headers */ = {isa = PBXBuildFile; fileRef = 707EFC291CD9658A716A43E771FB5A70 /* GTMRepetition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3AEC87A256B71C49B35AFCAA067146 /* GTMotionAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03419D05732DCD3A0549364F93A1D694 /* GTMotionAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 526DAE8FFF6EE3CCA2FC8F9AA4BC5B63 /* FBSnapshotTestCase-dummy.m */; };
+		51E6707FF4E077AF5B8B989BD1B9633E /* CAMediaTimingFunction+MotionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 83630DAB18C6257EC771AE2775A48A37 /* CAMediaTimingFunction+MotionAnimator.m */; };
+		5369A52A1D3D604272802A1FA833F760 /* GTMAnimatableKeyPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBE70DE0EBF48C7F7673183BBD59A58 /* GTMAnimatableKeyPaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		588E3DBD2757494D8360020D4763FF67 /* GTMCoreAnimationTraceable.h in Headers */ = {isa = PBXBuildFile; fileRef = 914E80FA8C8F5C5D1447F76A22EFDC67 /* GTMCoreAnimationTraceable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A460FE4638EC0B6348B15055E6DC56E /* GTFRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = FC63A89BBF59164110E442148C780269 /* GTFRuntime.m */; };
+		5FCF387A86C8ECA12A309124CA2A45E0 /* Pods-GTMotionAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F39B1ACDC4BA315F728012DCF19DE68 /* Pods-GTMotionAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62475E1826F1E10CC504093EF5D84D35 /* GTMMotionCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = D016FCA0D21331E9EAB7610B6CA971BD /* GTMMotionCurve.m */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E823AAD6ACD60E2A7F730A6F973B86 /* UIImage+Compare.m */; };
+		6A2F746B07F12BB6E323F745FF73C4BF /* GTMotionInterchange-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D638957ACEF918B20111130BC659B1 /* GTMotionInterchange-dummy.m */; };
+		6B013B860B6C6578F16A984C8F68D114 /* GTMSpringTimingCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = E5678C88222F6E4F0E8EB11CBBCB9929 /* GTMSpringTimingCurve.m */; };
+		6FCDE726056E666D61BE82F99E764ED2 /* GTMSpringTimingCurveGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C586BDF737AF2724D6AAE62A7FBA750 /* GTMSpringTimingCurveGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70ADFF033E805C687D832EC35B0955F3 /* GTMUIKitValueCoercion.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DA904897D0B2C93EE14BB3700E23F5 /* GTMUIKitValueCoercion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A83CAB4FCFC5F660D817292904FA64E /* UIImage+Snapshot.m */; };
+		775AB8A64B3EAA5ECAF19E24FE486D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B584E85ECFF9724B7BE4295B2F2E705 /* Foundation.framework */; };
+		78E3D16C0B69F5376FCA7B08D33DA635 /* Pods-GTMotionAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB537D221793C941132F3E36103EDBE /* Pods-GTMotionAnimator_Tests-dummy.m */; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A526F9174A8513C672334047910BFFD0 /* XCTest.framework */; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F68F5AC141B446874BA14525F1376BA /* UIKit.framework */; };
+		8496ED857F5BC6CB2C1F8101D79D95AD /* GTMMotionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55497A752EBEF8FC660FA0254B68DEBD /* GTMMotionAnimator.m */; };
+		878EF21490B47B950F682943691632EE /* Pods-GTMotionAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A67B4D7118CAB64523667910CEAF1D94 /* Pods-GTMotionAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B37AD1A9DD046065E71D104355B9D5C /* GTMBlockAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = ED795BEE14971A7189559DA32CD3385A /* GTMBlockAnimations.m */; };
+		8C6DA20C695AF63D1F4EDDB16594E73D /* GTMAnimationTraits.m in Sources */ = {isa = PBXBuildFile; fileRef = B2DAAB5C7C07BD28BA2E278906FC256A /* GTMAnimationTraits.m */; };
+		8D87882000A1460682B9B41844D21F7B /* GTFCatalogExample.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 269E3D75CD13F94BCF0D525BD8F5F6BD /* GTFCatalogExample.h */; };
+		8F3072686D46DF5BFF8485B1A69084D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B584E85ECFF9724B7BE4295B2F2E705 /* Foundation.framework */; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B584E85ECFF9724B7BE4295B2F2E705 /* Foundation.framework */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 773CFB1DF74936E78129CD395468D1C3 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A60632B8C48B26F46AD1DF780800CE /* GTMMotionTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = E363B4C78570B2D12DAAADECBC0B5A3F /* GTMMotionTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF4D20204565DE7D25E006893AE3D9F /* GTMotionAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E23EB9319353E05F31301B7937BEB40 /* GTMotionAnimator-dummy.m */; };
+		9C57FC7EC8EEFCA2032B59F377097078 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B584E85ECFF9724B7BE4295B2F2E705 /* Foundation.framework */; };
+		9E279F87AD5B75889DC5EEB9A757744C /* GTMMotionCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = C32C44DE1DB4CE27CC378FDC3B644C08 /* GTMMotionCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA320279018ADC70ED193738B269035 /* CAMediaTimingFunction+GTMTimingCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C38249FBC2AB6C433E66225812D29EE /* CAMediaTimingFunction+GTMTimingCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFE6339DB7727D9B890B7B09FA5CFC /* FBSnapshotTestController.m */; };
+		A9316D7CF0AC41BD13875F6397791D75 /* GTFNodeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A389A063EA92485971E5527DEB52E053 /* GTFNodeListViewController.m */; };
+		ABB7A3224B6709C6AFC639AF1315B711 /* GTFNodeListViewController.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 0ECAA96E2D7BE7629EF57A8AB48E4834 /* GTFNodeListViewController.h */; };
+		AC15F118AB4281036127F978D0989F89 /* GTMMotionRepetition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7051B0C71686EE17FE09A3B65828BD /* GTMMotionRepetition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF092D7F5EE51C86A8A4E2A29AFB4E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B584E85ECFF9724B7BE4295B2F2E705 /* Foundation.framework */; };
+		B1260BC3E7299CE531CD67629EAA1CEC /* GTMotionInterchange.h in Headers */ = {isa = PBXBuildFile; fileRef = D41FA4BDDB442CC6983979A089672223 /* GTMotionInterchange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164D86BDF23E99D631228D5B1B424D4 /* QuartzCore.framework */; };
+		B41C5CA0F36CC9442E401B523C463A3C /* GTMRepetition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECBF3BD3C05F09477CFDFAF6151B4F6 /* GTMRepetition.m */; };
+		B51C33E96F9C301BE52CC275E03603E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B584E85ECFF9724B7BE4295B2F2E705 /* Foundation.framework */; };
+		B60359804EB45AB9F622CDE105002807 /* GTMRegisteredAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4836F6450C48CF2CC8EB0E11FDA11B /* GTMRegisteredAnimation.m */; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E46226502A265208DAF32E7A525E929A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E939A8025F8B0FB4E8A019B7DAA059 /* GTCatalog.h in Headers */ = {isa = PBXBuildFile; fileRef = 948EBE373A0D37AAFEECC07FFBD6A0DC /* GTCatalog.h */; };
+		BA99330002D1F86CC73D457CA7132953 /* CATransaction+MotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C461B8261612614E5EAC65F04F1F5B /* CATransaction+MotionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F770581D235385155B240A074D3D8F /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C1B655DC7EF726F90F6833975A3FEF /* FBSnapshotTestCase.m */; };
+		BF9AA01F96EA484E42C76AD8D760CAA4 /* GTMRepetitionOverTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E041AA002B615999CF37ED6BB8BBE5 /* GTMRepetitionOverTime.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = B770EAE2F963F37FB1470C7BA0A77338 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C08D09B4D277C7D26BBA2D054868E2D8 /* GTMRegisteredAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1D1B5FB20EAD9F2AD13C520A7CF5A0 /* GTMRegisteredAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C08D7826A7AAC983C5BBB166A3751FE1 /* GTMAnimatableKeyPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F35A6D96071A2DBF7F88663CFEE655 /* GTMAnimatableKeyPaths.m */; };
+		C1553A675B0FC22FD5BD4024FA184753 /* GTMotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = D184ADB1B890BD76AB6DCB44D34EF476 /* GTMotionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C568AD2081B0FDFD5A12F3627B378484 /* GTMAnimationTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BD0E9E90D7CB61CDB6193D45E85E79 /* GTMAnimationTraits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C68454E62989395286764A7112FBB042 /* GTMAnimationRegistrar.h in Headers */ = {isa = PBXBuildFile; fileRef = AB99E8F90A4E8FF7AE77AD47A7000158 /* GTMAnimationRegistrar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 610DFE53670F2A5360C4B60AC85F79C5 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CB3DA98F43AC3CF3B296D7EF793EB50E /* CABasicAnimation+MotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED59BD7FB9ECA08C118B8054BBB871B /* CABasicAnimation+MotionAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0F0988EC6DC899E877EE7A4F862BEE9 /* GTMRepetitionOverTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AF38174A45A245E50BDC41447755BA /* GTMRepetitionOverTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24C4968BD0855809091466381E2FE7C /* GTFNodeListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECAA96E2D7BE7629EF57A8AB48E4834 /* GTFNodeListViewController.h */; };
+		D615A7370DF4226C2B4AD30923BC8275 /* CAMediaTimingFunction+MotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0B5A2DF5A887F90B71AF646735176E /* CAMediaTimingFunction+MotionAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9D5A4110A05D019DADD66E53D6A66E9 /* GTMDragCoefficient.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3A0D4E1CAE288DC15D65D71354ABE5 /* GTMDragCoefficient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 784685ABE353882B1F0EECB43386C254 /* FBSnapshotTestCasePlatform.m */; };
+		EB743E6B18C18F7790800F2D6053887E /* GTMSpringTimingCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9800A078648099D8A0E459258DDC52 /* GTMSpringTimingCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2CE2D0FBA788B0E58617E7B325C2C8 /* GTCatalog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BFB861A69CB083F8AA52D123FA245F /* GTCatalog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE81A4DEE2A2032B1B1CF2EDFEE8ED11 /* GTMTimingCurve.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DC277C715D501A4F07CEB8B0A99F1E /* GTMTimingCurve.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F721A8CD8BDBA81467EAFA2A54BD7017 /* GTCatalog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8237909FE6B7D7D48509CF853BD6A75F /* GTCatalog-dummy.m */; };
+		F8FAD7229FC3AC1FACCA7AABB424D7FA /* CAMediaTimingFunction+GTMTimingCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 253F4D5418F36BA2BD585DEBCEC74631 /* CAMediaTimingFunction+GTMTimingCurve.m */; };
+		FA85F317A04DA0DC067BD012A5026DCA /* GTCatalog.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 948EBE373A0D37AAFEECC07FFBD6A0DC /* GTCatalog.h */; };
+		FD2801D02B19F9195840494F6A033BC5 /* GTMRepetitionTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = 980B4FA4086E899D707BB953492A7033 /* GTMRepetitionTraits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		270765B649C0B9C1B45B741A8C689370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7C9A5DC631033E15998EE2A4244513;
+			remoteInfo = GTMotionAnimator;
+		};
+		3D0ED74B64677ABD3655574F7889D9BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 688A67C0E5F60FA3D9A0A044F5BC385B;
+			remoteInfo = GTCatalog;
+		};
+		835ADDBCE81C65E815F2D000F24533EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C42D536BFAD0D3A56B43CDD6245084;
+			remoteInfo = "Pods-GTMotionAnimator_Example";
+		};
+		9FF0086C16012FE026D053F084E924B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69BBFB0AEAD6861A36655ED29F91F75F;
+			remoteInfo = GTMotionInterchange;
+		};
+		A7573FE7ACA29E064D1837CBDDAAA3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		F1157F81858D479838A78AFE11C49A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69BBFB0AEAD6861A36655ED29F91F75F;
+			remoteInfo = GTMotionInterchange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF042B9FC353BBFB2983A54CCE99E2E3 /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				FA85F317A04DA0DC067BD012A5026DCA /* GTCatalog.h in Copy . Public Headers */,
+				8D87882000A1460682B9B41844D21F7B /* GTFCatalogExample.h in Copy . Public Headers */,
+				ABB7A3224B6709C6AFC639AF1315B711 /* GTFNodeListViewController.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0337342523884B64CDD8E845B17B6241 /* Pods-GTMotionAnimator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTMotionAnimator_Tests.modulemap"; sourceTree = "<group>"; };
+		03419D05732DCD3A0549364F93A1D694 /* GTMotionAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMotionAnimator-umbrella.h"; sourceTree = "<group>"; };
+		0577CB96721F78EF0F3DFCBFEAD1809F /* GTMotionInterchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMotionInterchange.framework; path = GTMotionInterchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C586BDF737AF2724D6AAE62A7FBA750 /* GTMSpringTimingCurveGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSpringTimingCurveGenerator.h; path = src/GTMSpringTimingCurveGenerator.h; sourceTree = "<group>"; };
+		0ECAA96E2D7BE7629EF57A8AB48E4834 /* GTFNodeListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFNodeListViewController.h; path = src/GTFNodeListViewController.h; sourceTree = "<group>"; };
+		1198CE63FD95D8D524F418369DF7CF81 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		19BD0E9E90D7CB61CDB6193D45E85E79 /* GTMAnimationTraits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMAnimationTraits.h; path = src/GTMAnimationTraits.h; sourceTree = "<group>"; };
+		1A4D968F143C83DFF7793FBF5A86BE03 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		1A549375DAFC8F53A7C9E379BDAEE8AF /* GTCatalog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTCatalog.xcconfig; sourceTree = "<group>"; };
+		1CDBB85CCD898B7CDED2364F66202C4A /* GTMBlockAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMBlockAnimations.h; sourceTree = "<group>"; };
+		1DEB05E9DD67DD5AB15C5B8B70E333A0 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		20A1E8CDACBD0F00E94361DDD361904D /* GTMotionInterchange.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMotionInterchange.xcconfig; sourceTree = "<group>"; };
+		2266946B70365A445CFE0CE1FFE7F9C7 /* GTFRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFRuntime.h; path = src/private/GTFRuntime.h; sourceTree = "<group>"; };
+		253F4D5418F36BA2BD585DEBCEC74631 /* CAMediaTimingFunction+GTMTimingCurve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAMediaTimingFunction+GTMTimingCurve.m"; path = "src/CAMediaTimingFunction+GTMTimingCurve.m"; sourceTree = "<group>"; };
+		25949BC7ED2C93933B4B12802E60429A /* GTMotionInterchange.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMotionInterchange.modulemap; sourceTree = "<group>"; };
+		269E3D75CD13F94BCF0D525BD8F5F6BD /* GTFCatalogExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFCatalogExample.h; path = src/GTFCatalogExample.h; sourceTree = "<group>"; };
+		26E823AAD6ACD60E2A7F730A6F973B86 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		2B7153B4D3230CDFCB28AB3415116F68 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		2DE2F513D3047AC53CE67262FB65DC59 /* GTCatalog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTCatalog-prefix.pch"; sourceTree = "<group>"; };
+		2ECBF3BD3C05F09477CFDFAF6151B4F6 /* GTMRepetition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMRepetition.m; path = src/GTMRepetition.m; sourceTree = "<group>"; };
+		2ED59BD7FB9ECA08C118B8054BBB871B /* CABasicAnimation+MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+MotionAnimator.h"; sourceTree = "<group>"; };
+		2F39B1ACDC4BA315F728012DCF19DE68 /* Pods-GTMotionAnimator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMotionAnimator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		31BFB861A69CB083F8AA52D123FA245F /* GTCatalog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTCatalog-umbrella.h"; sourceTree = "<group>"; };
+		37095B0F523359E802F50AA732BA5486 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AB9F765D52A03E97509C0AF751F043 /* Pods-GTMotionAnimator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMotionAnimator_Example-resources.sh"; sourceTree = "<group>"; };
+		38DC277C715D501A4F07CEB8B0A99F1E /* GTMTimingCurve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMTimingCurve.h; path = src/GTMTimingCurve.h; sourceTree = "<group>"; };
+		3DA1F2D31747C09F41DF48FB76C36317 /* GTMMotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMotionAnimator.h; path = src/GTMMotionAnimator.h; sourceTree = "<group>"; };
+		4164D86BDF23E99D631228D5B1B424D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4523447E34012496F8C2E4C1AF50F8B1 /* GTCatalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTCatalog.framework; path = GTCatalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBDD22880E9963A34EC9CA5B647469C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526DAE8FFF6EE3CCA2FC8F9AA4BC5B63 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		52F770581D235385155B240A074D3D8F /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		53751A953EF002FDE15CAFEFB735F8AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E041AA002B615999CF37ED6BB8BBE5 /* GTMRepetitionOverTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMRepetitionOverTime.m; path = src/GTMRepetitionOverTime.m; sourceTree = "<group>"; };
+		55497A752EBEF8FC660FA0254B68DEBD /* GTMMotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMMotionAnimator.m; path = src/GTMMotionAnimator.m; sourceTree = "<group>"; };
+		573CFA6B1572F05ED40E3CEE03CD025C /* GTCatalog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTCatalog.modulemap; sourceTree = "<group>"; };
+		5A63CB4A69D188408F060C274644A970 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5B7051B0C71686EE17FE09A3B65828BD /* GTMMotionRepetition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMotionRepetition.h; path = src/GTMMotionRepetition.h; sourceTree = "<group>"; };
+		5C0231E453169BF776F86EC7DE26A6C9 /* Pods-GTMotionAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMotionAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C6DA3E82E66CFE8B41E705A12A3ED33 /* GTMotionAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMotionAnimator.framework; path = GTMotionAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B8B10F6564407B5A3A39468E8518D8 /* Pods-GTMotionAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMotionAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		610DFE53670F2A5360C4B60AC85F79C5 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		648254035F38A41CBCF4CBA1A7FADF8B /* GTMotionAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMotionAnimator.xcconfig; sourceTree = "<group>"; };
+		66D638957ACEF918B20111130BC659B1 /* GTMotionInterchange-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMotionInterchange-dummy.m"; sourceTree = "<group>"; };
+		68EBD4BFDD44BBB5A7C31311489BBE61 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		6937DF2D9710854B464B125930105C3E /* GTMotionAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMotionAnimator-prefix.pch"; sourceTree = "<group>"; };
+		6B584E85ECFF9724B7BE4295B2F2E705 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C9E68980179825933D22754B92EF330 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		707EFC291CD9658A716A43E771FB5A70 /* GTMRepetition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMRepetition.h; path = src/GTMRepetition.h; sourceTree = "<group>"; };
+		729486BC2048B973AFD544B93C1ED210 /* Pods-GTMotionAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTMotionAnimator_Example-dummy.m"; sourceTree = "<group>"; };
+		773CFB1DF74936E78129CD395468D1C3 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		784685ABE353882B1F0EECB43386C254 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		7CCFE6339DB7727D9B890B7B09FA5CFC /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		7E23EB9319353E05F31301B7937BEB40 /* GTMotionAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMotionAnimator-dummy.m"; sourceTree = "<group>"; };
+		806FE9CCB6C4F19F3CBAD67D17A2C90E /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2E575485FA21D9B6D671D934DA80A /* Pods-GTMotionAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMotionAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		81C80102C83D875854247E992382C59B /* Pods-GTMotionAnimator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTMotionAnimator_Example.modulemap"; sourceTree = "<group>"; };
+		8237909FE6B7D7D48509CF853BD6A75F /* GTCatalog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTCatalog-dummy.m"; sourceTree = "<group>"; };
+		83630DAB18C6257EC771AE2775A48A37 /* CAMediaTimingFunction+MotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAMediaTimingFunction+MotionAnimator.m"; sourceTree = "<group>"; };
+		8405CD3725B348D788AEFEF36A6FD4C4 /* GTMotionInterchange-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMotionInterchange-umbrella.h"; sourceTree = "<group>"; };
+		890DDA4CB5225A7E1E4F39CE93349636 /* Pods-GTMotionAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMotionAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C6DA8281CB03F17A5D837F8993DB0CA /* Pods_GTMotionAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMotionAnimator_Tests.framework; path = "Pods-GTMotionAnimator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF437D0ABEE6E08BA877C71DEF336E3 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		8EBE50C79E5E22EB88132B869B6FA872 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F68F5AC141B446874BA14525F1376BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		914E80FA8C8F5C5D1447F76A22EFDC67 /* GTMCoreAnimationTraceable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMCoreAnimationTraceable.h; path = src/GTMCoreAnimationTraceable.h; sourceTree = "<group>"; };
+		91AF38174A45A245E50BDC41447755BA /* GTMRepetitionOverTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMRepetitionOverTime.h; path = src/GTMRepetitionOverTime.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944BE349AF3035DF3F57D2E0198AB479 /* Pods-GTMotionAnimator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMotionAnimator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		948EBE373A0D37AAFEECC07FFBD6A0DC /* GTCatalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTCatalog.h; path = src/GTCatalog.h; sourceTree = "<group>"; };
+		980B4FA4086E899D707BB953492A7033 /* GTMRepetitionTraits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMRepetitionTraits.h; path = src/GTMRepetitionTraits.h; sourceTree = "<group>"; };
+		988410294DF887F7AAD63ECB670278BF /* Pods-GTMotionAnimator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMotionAnimator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9A83CAB4FCFC5F660D817292904FA64E /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		9B4677225C15CB739DAB54528220624E /* GTMAnimationRegistrar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMAnimationRegistrar.m; sourceTree = "<group>"; };
+		9BBE70DE0EBF48C7F7673183BBD59A58 /* GTMAnimatableKeyPaths.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMAnimatableKeyPaths.h; path = src/GTMAnimatableKeyPaths.h; sourceTree = "<group>"; };
+		9C38249FBC2AB6C433E66225812D29EE /* CAMediaTimingFunction+GTMTimingCurve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+GTMTimingCurve.h"; path = "src/CAMediaTimingFunction+GTMTimingCurve.h"; sourceTree = "<group>"; };
+		9DB537D221793C941132F3E36103EDBE /* Pods-GTMotionAnimator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTMotionAnimator_Tests-dummy.m"; sourceTree = "<group>"; };
+		9E0B5A2DF5A887F90B71AF646735176E /* CAMediaTimingFunction+MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAMediaTimingFunction+MotionAnimator.h"; sourceTree = "<group>"; };
+		9F6C2FCA8F8C92953998656AF6A51654 /* CABasicAnimation+MotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CABasicAnimation+MotionAnimator.m"; sourceTree = "<group>"; };
+		A2149D19B81A60A958C549C394689B98 /* Pods-GTMotionAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMotionAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C1B655DC7EF726F90F6833975A3FEF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		A389A063EA92485971E5527DEB52E053 /* GTFNodeListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTFNodeListViewController.m; path = src/GTFNodeListViewController.m; sourceTree = "<group>"; };
+		A526F9174A8513C672334047910BFFD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A67B4D7118CAB64523667910CEAF1D94 /* Pods-GTMotionAnimator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMotionAnimator_Example-umbrella.h"; sourceTree = "<group>"; };
+		AB99E8F90A4E8FF7AE77AD47A7000158 /* GTMAnimationRegistrar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMAnimationRegistrar.h; sourceTree = "<group>"; };
+		AE1D1B5FB20EAD9F2AD13C520A7CF5A0 /* GTMRegisteredAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMRegisteredAnimation.h; sourceTree = "<group>"; };
+		B0C7D3222AE81C760868F44448970188 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B2DAAB5C7C07BD28BA2E278906FC256A /* GTMAnimationTraits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMAnimationTraits.m; path = src/GTMAnimationTraits.m; sourceTree = "<group>"; };
+		B3C461B8261612614E5EAC65F04F1F5B /* CATransaction+MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+MotionAnimator.h"; path = "src/CATransaction+MotionAnimator.h"; sourceTree = "<group>"; };
+		B5F35A6D96071A2DBF7F88663CFEE655 /* GTMAnimatableKeyPaths.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMAnimatableKeyPaths.m; path = src/GTMAnimatableKeyPaths.m; sourceTree = "<group>"; };
+		B73A98C5406A7737967105EF51BF747B /* Pods-GTMotionAnimator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMotionAnimator_Tests-resources.sh"; sourceTree = "<group>"; };
+		B770EAE2F963F37FB1470C7BA0A77338 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		BE3A0D4E1CAE288DC15D65D71354ABE5 /* GTMDragCoefficient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDragCoefficient.h; sourceTree = "<group>"; };
+		BEB86C1605D9AB314F0AD7A62A78C3BE /* Pods_GTMotionAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMotionAnimator_Example.framework; path = "Pods-GTMotionAnimator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2403944B3917812CFC1820ACB5CC0ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32C44DE1DB4CE27CC378FDC3B644C08 /* GTMMotionCurve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMotionCurve.h; path = src/GTMMotionCurve.h; sourceTree = "<group>"; };
+		C403A5D244F5E9C7B66B6F94EC016994 /* GTMSubclassingRestricted.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSubclassingRestricted.h; path = src/GTMSubclassingRestricted.h; sourceTree = "<group>"; };
+		C5B29EEA83B6C91AC5DABC69FD1F6151 /* GTMotionAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTMotionAnimator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CAD8D5947255627717A7072DFB207465 /* Pods-GTMotionAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMotionAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D016FCA0D21331E9EAB7610B6CA971BD /* GTMMotionCurve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMMotionCurve.m; path = src/GTMMotionCurve.m; sourceTree = "<group>"; };
+		D184ADB1B890BD76AB6DCB44D34EF476 /* GTMotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMotionAnimator.h; path = src/GTMotionAnimator.h; sourceTree = "<group>"; };
+		D41FA4BDDB442CC6983979A089672223 /* GTMotionInterchange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMotionInterchange.h; path = src/GTMotionInterchange.h; sourceTree = "<group>"; };
+		D6603EA4C5557ECAF4B5F175ECD83BCD /* CATransaction+MotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+MotionAnimator.m"; path = "src/CATransaction+MotionAnimator.m"; sourceTree = "<group>"; };
+		DB2CD970CFF4F21352C70875337D5755 /* Pods-GTMotionAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMotionAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC2736949C147BAFF1AE7404DEC15383 /* GTMotionInterchange-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMotionInterchange-prefix.pch"; sourceTree = "<group>"; };
+		E2AFE571856ADD1A8A1CE1343A70A00A /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		E34BFB975E64C5075647984C77333579 /* GTMSpringTimingCurveGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSpringTimingCurveGenerator.m; path = src/GTMSpringTimingCurveGenerator.m; sourceTree = "<group>"; };
+		E363B4C78570B2D12DAAADECBC0B5A3F /* GTMMotionTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMotionTiming.h; path = src/GTMMotionTiming.h; sourceTree = "<group>"; };
+		E46226502A265208DAF32E7A525E929A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		E4DA904897D0B2C93EE14BB3700E23F5 /* GTMUIKitValueCoercion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMUIKitValueCoercion.h; sourceTree = "<group>"; };
+		E5678C88222F6E4F0E8EB11CBBCB9929 /* GTMSpringTimingCurve.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSpringTimingCurve.m; path = src/GTMSpringTimingCurve.m; sourceTree = "<group>"; };
+		EA58133FCBB06F11617018D015320B4A /* GTMDragCoefficient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMDragCoefficient.m; sourceTree = "<group>"; };
+		ED795BEE14971A7189559DA32CD3385A /* GTMBlockAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMBlockAnimations.m; sourceTree = "<group>"; };
+		EEB0E348FA847E7E96DD35B3161E5DB5 /* GTMotionInterchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMotionInterchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9800A078648099D8A0E459258DDC52 /* GTMSpringTimingCurve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSpringTimingCurve.h; path = src/GTMSpringTimingCurve.h; sourceTree = "<group>"; };
+		EFFEBDBB1862E3789908067AC01BC1B4 /* GTMUIKitValueCoercion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMUIKitValueCoercion.m; sourceTree = "<group>"; };
+		F2F6EE04700EDF21E3B9D0F853CFBC57 /* GTMotionAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMotionAnimator.modulemap; sourceTree = "<group>"; };
+		F77492B98295A2D9375256658C1D93B5 /* Pods-GTMotionAnimator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMotionAnimator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F98EF558F85DA452F51518B426E99F3B /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		FC63A89BBF59164110E442148C780269 /* GTFRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTFRuntime.m; path = src/private/GTFRuntime.m; sourceTree = "<group>"; };
+		FD4836F6450C48CF2CC8EB0E11FDA11B /* GTMRegisteredAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTMRegisteredAnimation.m; sourceTree = "<group>"; };
+		FE3175571967E12F2B7484EF5CEFCA70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
+				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
+				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
+				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39394A4E472710E216F7826DDCEE94E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51C33E96F9C301BE52CC275E03603E1 /* Foundation.framework in Frameworks */,
+				16C24CF57846D08431CC37D855263AEE /* GTMotionInterchange.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8319DAB9358E744580F7E6200E4B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF092D7F5EE51C86A8A4E2A29AFB4E9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F159700EDD7507E7CC58D53A8086F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C57FC7EC8EEFCA2032B59F377097078 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22566D579F4D98CFBC93C877E345EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3072686D46DF5BFF8485B1A69084D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B28F80E7A218D5A20A22D1AE23F2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775AB8A64B3EAA5ECAF19E24FE486D24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266C0966CEB62043C8E7860549F88C12 /* GTCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				948EBE373A0D37AAFEECC07FFBD6A0DC /* GTCatalog.h */,
+				269E3D75CD13F94BCF0D525BD8F5F6BD /* GTFCatalogExample.h */,
+				0ECAA96E2D7BE7629EF57A8AB48E4834 /* GTFNodeListViewController.h */,
+				A389A063EA92485971E5527DEB52E053 /* GTFNodeListViewController.m */,
+				2266946B70365A445CFE0CE1FFE7F9C7 /* GTFRuntime.h */,
+				FC63A89BBF59164110E442148C780269 /* GTFRuntime.m */,
+				D741D40E6C8478BACA4BBC3A7E179485 /* Support Files */,
+			);
+			name = GTCatalog;
+			path = GTCatalog;
+			sourceTree = "<group>";
+		};
+		2EEE594E5920C5D865BBB671B590CC35 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				2ED59BD7FB9ECA08C118B8054BBB871B /* CABasicAnimation+MotionAnimator.h */,
+				9F6C2FCA8F8C92953998656AF6A51654 /* CABasicAnimation+MotionAnimator.m */,
+				9E0B5A2DF5A887F90B71AF646735176E /* CAMediaTimingFunction+MotionAnimator.h */,
+				83630DAB18C6257EC771AE2775A48A37 /* CAMediaTimingFunction+MotionAnimator.m */,
+				AB99E8F90A4E8FF7AE77AD47A7000158 /* GTMAnimationRegistrar.h */,
+				9B4677225C15CB739DAB54528220624E /* GTMAnimationRegistrar.m */,
+				1CDBB85CCD898B7CDED2364F66202C4A /* GTMBlockAnimations.h */,
+				ED795BEE14971A7189559DA32CD3385A /* GTMBlockAnimations.m */,
+				BE3A0D4E1CAE288DC15D65D71354ABE5 /* GTMDragCoefficient.h */,
+				EA58133FCBB06F11617018D015320B4A /* GTMDragCoefficient.m */,
+				AE1D1B5FB20EAD9F2AD13C520A7CF5A0 /* GTMRegisteredAnimation.h */,
+				FD4836F6450C48CF2CC8EB0E11FDA11B /* GTMRegisteredAnimation.m */,
+				E4DA904897D0B2C93EE14BB3700E23F5 /* GTMUIKitValueCoercion.h */,
+				EFFEBDBB1862E3789908067AC01BC1B4 /* GTMUIKitValueCoercion.m */,
+			);
+			name = private;
+			path = src/private;
+			sourceTree = "<group>";
+		};
+		34EB9ACE6415FFFF63032B06B528D3F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C5B29EEA83B6C91AC5DABC69FD1F6151 /* GTMotionAnimator.podspec */,
+				B0C7D3222AE81C760868F44448970188 /* LICENSE */,
+				5A63CB4A69D188408F060C274644A970 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		40CE19649F3EF4105142C203B46A4D6C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8223BDF39972C4A82D61A0327C266C6 /* GTMotionAnimator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4918C01CC73F29AC6D11EC7E181BAF3A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				773CFB1DF74936E78129CD395468D1C3 /* FBSnapshotTestCase.h */,
+				A2C1B655DC7EF726F90F6833975A3FEF /* FBSnapshotTestCase.m */,
+				B770EAE2F963F37FB1470C7BA0A77338 /* FBSnapshotTestCasePlatform.h */,
+				784685ABE353882B1F0EECB43386C254 /* FBSnapshotTestCasePlatform.m */,
+				E2AFE571856ADD1A8A1CE1343A70A00A /* FBSnapshotTestController.h */,
+				7CCFE6339DB7727D9B890B7B09FA5CFC /* FBSnapshotTestController.m */,
+				52F770581D235385155B240A074D3D8F /* UIApplication+StrictKeyWindow.h */,
+				F98EF558F85DA452F51518B426E99F3B /* UIApplication+StrictKeyWindow.m */,
+				610DFE53670F2A5360C4B60AC85F79C5 /* UIImage+Compare.h */,
+				26E823AAD6ACD60E2A7F730A6F973B86 /* UIImage+Compare.m */,
+				1198CE63FD95D8D524F418369DF7CF81 /* UIImage+Diff.h */,
+				6C9E68980179825933D22754B92EF330 /* UIImage+Diff.m */,
+				1A4D968F143C83DFF7793FBF5A86BE03 /* UIImage+Snapshot.h */,
+				9A83CAB4FCFC5F660D817292904FA64E /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5F94DD6080A79B4FC66E3CD99B544607 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				68EBD4BFDD44BBB5A7C31311489BBE61 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		66523FF9FE93C5CF9F5CF595A70CE381 /* GTMotionInterchange */ = {
+			isa = PBXGroup;
+			children = (
+				9C38249FBC2AB6C433E66225812D29EE /* CAMediaTimingFunction+GTMTimingCurve.h */,
+				253F4D5418F36BA2BD585DEBCEC74631 /* CAMediaTimingFunction+GTMTimingCurve.m */,
+				19BD0E9E90D7CB61CDB6193D45E85E79 /* GTMAnimationTraits.h */,
+				B2DAAB5C7C07BD28BA2E278906FC256A /* GTMAnimationTraits.m */,
+				C32C44DE1DB4CE27CC378FDC3B644C08 /* GTMMotionCurve.h */,
+				D016FCA0D21331E9EAB7610B6CA971BD /* GTMMotionCurve.m */,
+				5B7051B0C71686EE17FE09A3B65828BD /* GTMMotionRepetition.h */,
+				E363B4C78570B2D12DAAADECBC0B5A3F /* GTMMotionTiming.h */,
+				D41FA4BDDB442CC6983979A089672223 /* GTMotionInterchange.h */,
+				707EFC291CD9658A716A43E771FB5A70 /* GTMRepetition.h */,
+				2ECBF3BD3C05F09477CFDFAF6151B4F6 /* GTMRepetition.m */,
+				91AF38174A45A245E50BDC41447755BA /* GTMRepetitionOverTime.h */,
+				53E041AA002B615999CF37ED6BB8BBE5 /* GTMRepetitionOverTime.m */,
+				980B4FA4086E899D707BB953492A7033 /* GTMRepetitionTraits.h */,
+				EF9800A078648099D8A0E459258DDC52 /* GTMSpringTimingCurve.h */,
+				E5678C88222F6E4F0E8EB11CBBCB9929 /* GTMSpringTimingCurve.m */,
+				0C586BDF737AF2724D6AAE62A7FBA750 /* GTMSpringTimingCurveGenerator.h */,
+				E34BFB975E64C5075647984C77333579 /* GTMSpringTimingCurveGenerator.m */,
+				C403A5D244F5E9C7B66B6F94EC016994 /* GTMSubclassingRestricted.h */,
+				38DC277C715D501A4F07CEB8B0A99F1E /* GTMTimingCurve.h */,
+				B3B4218DE81A27A6CD5C7D05E6B63C7C /* Support Files */,
+			);
+			name = GTMotionInterchange;
+			path = GTMotionInterchange;
+			sourceTree = "<group>";
+		};
+		73657F56442E58B862CE0E2C54D150F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7153B4D3230CDFCB28AB3415116F68 /* FBSnapshotTestCase.modulemap */,
+				1DEB05E9DD67DD5AB15C5B8B70E333A0 /* FBSnapshotTestCase.xcconfig */,
+				526DAE8FFF6EE3CCA2FC8F9AA4BC5B63 /* FBSnapshotTestCase-dummy.m */,
+				8CF437D0ABEE6E08BA877C71DEF336E3 /* FBSnapshotTestCase-prefix.pch */,
+				E46226502A265208DAF32E7A525E929A /* FBSnapshotTestCase-umbrella.h */,
+				8EBE50C79E5E22EB88132B869B6FA872 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				40CE19649F3EF4105142C203B46A4D6C /* Development Pods */,
+				DA2BBF262ADB1DE1BDB88C1458DEF4CE /* Frameworks */,
+				E9E7B934872392BA251E152E022A58CC /* Pods */,
+				D4F1AA00D00ADF655BCA0B8149EE309C /* Products */,
+				F6995E95B69335AD306032F53E16A5A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF56AB18900E63F7055638502A4F9EC /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4918C01CC73F29AC6D11EC7E181BAF3A /* Core */,
+				73657F56442E58B862CE0E2C54D150F9 /* Support Files */,
+				5F94DD6080A79B4FC66E3CD99B544607 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		980DADC32518DC94F7DB23920559AE14 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B584E85ECFF9724B7BE4295B2F2E705 /* Foundation.framework */,
+				4164D86BDF23E99D631228D5B1B424D4 /* QuartzCore.framework */,
+				8F68F5AC141B446874BA14525F1376BA /* UIKit.framework */,
+				A526F9174A8513C672334047910BFFD0 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A76823900A30282EFFC0C47ADBAA27BD /* Pods-GTMotionAnimator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBDD22880E9963A34EC9CA5B647469C /* Info.plist */,
+				0337342523884B64CDD8E845B17B6241 /* Pods-GTMotionAnimator_Tests.modulemap */,
+				CAD8D5947255627717A7072DFB207465 /* Pods-GTMotionAnimator_Tests-acknowledgements.markdown */,
+				60B8B10F6564407B5A3A39468E8518D8 /* Pods-GTMotionAnimator_Tests-acknowledgements.plist */,
+				9DB537D221793C941132F3E36103EDBE /* Pods-GTMotionAnimator_Tests-dummy.m */,
+				F77492B98295A2D9375256658C1D93B5 /* Pods-GTMotionAnimator_Tests-frameworks.sh */,
+				B73A98C5406A7737967105EF51BF747B /* Pods-GTMotionAnimator_Tests-resources.sh */,
+				2F39B1ACDC4BA315F728012DCF19DE68 /* Pods-GTMotionAnimator_Tests-umbrella.h */,
+				5C0231E453169BF776F86EC7DE26A6C9 /* Pods-GTMotionAnimator_Tests.debug.xcconfig */,
+				890DDA4CB5225A7E1E4F39CE93349636 /* Pods-GTMotionAnimator_Tests.release.xcconfig */,
+			);
+			name = "Pods-GTMotionAnimator_Tests";
+			path = "Target Support Files/Pods-GTMotionAnimator_Tests";
+			sourceTree = "<group>";
+		};
+		B3B4218DE81A27A6CD5C7D05E6B63C7C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25949BC7ED2C93933B4B12802E60429A /* GTMotionInterchange.modulemap */,
+				20A1E8CDACBD0F00E94361DDD361904D /* GTMotionInterchange.xcconfig */,
+				66D638957ACEF918B20111130BC659B1 /* GTMotionInterchange-dummy.m */,
+				DC2736949C147BAFF1AE7404DEC15383 /* GTMotionInterchange-prefix.pch */,
+				8405CD3725B348D788AEFEF36A6FD4C4 /* GTMotionInterchange-umbrella.h */,
+				37095B0F523359E802F50AA732BA5486 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMotionInterchange";
+			sourceTree = "<group>";
+		};
+		B8223BDF39972C4A82D61A0327C266C6 /* GTMotionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				B3C461B8261612614E5EAC65F04F1F5B /* CATransaction+MotionAnimator.h */,
+				D6603EA4C5557ECAF4B5F175ECD83BCD /* CATransaction+MotionAnimator.m */,
+				9BBE70DE0EBF48C7F7673183BBD59A58 /* GTMAnimatableKeyPaths.h */,
+				B5F35A6D96071A2DBF7F88663CFEE655 /* GTMAnimatableKeyPaths.m */,
+				914E80FA8C8F5C5D1447F76A22EFDC67 /* GTMCoreAnimationTraceable.h */,
+				3DA1F2D31747C09F41DF48FB76C36317 /* GTMMotionAnimator.h */,
+				55497A752EBEF8FC660FA0254B68DEBD /* GTMMotionAnimator.m */,
+				D184ADB1B890BD76AB6DCB44D34EF476 /* GTMotionAnimator.h */,
+				34EB9ACE6415FFFF63032B06B528D3F0 /* Pod */,
+				2EEE594E5920C5D865BBB671B590CC35 /* private */,
+				C8A8821D023A6EBA7555F6B3B923EA92 /* Support Files */,
+			);
+			name = GTMotionAnimator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C8A8821D023A6EBA7555F6B3B923EA92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2F6EE04700EDF21E3B9D0F853CFBC57 /* GTMotionAnimator.modulemap */,
+				648254035F38A41CBCF4CBA1A7FADF8B /* GTMotionAnimator.xcconfig */,
+				7E23EB9319353E05F31301B7937BEB40 /* GTMotionAnimator-dummy.m */,
+				6937DF2D9710854B464B125930105C3E /* GTMotionAnimator-prefix.pch */,
+				03419D05732DCD3A0549364F93A1D694 /* GTMotionAnimator-umbrella.h */,
+				FE3175571967E12F2B7484EF5CEFCA70 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTMotionAnimator";
+			sourceTree = "<group>";
+		};
+		D4F1AA00D00ADF655BCA0B8149EE309C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806FE9CCB6C4F19F3CBAD67D17A2C90E /* FBSnapshotTestCase.framework */,
+				4523447E34012496F8C2E4C1AF50F8B1 /* GTCatalog.framework */,
+				5C6DA3E82E66CFE8B41E705A12A3ED33 /* GTMotionAnimator.framework */,
+				0577CB96721F78EF0F3DFCBFEAD1809F /* GTMotionInterchange.framework */,
+				BEB86C1605D9AB314F0AD7A62A78C3BE /* Pods_GTMotionAnimator_Example.framework */,
+				8C6DA8281CB03F17A5D837F8993DB0CA /* Pods_GTMotionAnimator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D741D40E6C8478BACA4BBC3A7E179485 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				573CFA6B1572F05ED40E3CEE03CD025C /* GTCatalog.modulemap */,
+				1A549375DAFC8F53A7C9E379BDAEE8AF /* GTCatalog.xcconfig */,
+				8237909FE6B7D7D48509CF853BD6A75F /* GTCatalog-dummy.m */,
+				2DE2F513D3047AC53CE67262FB65DC59 /* GTCatalog-prefix.pch */,
+				31BFB861A69CB083F8AA52D123FA245F /* GTCatalog-umbrella.h */,
+				C2403944B3917812CFC1820ACB5CC0ED /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTCatalog";
+			sourceTree = "<group>";
+		};
+		DA2BBF262ADB1DE1BDB88C1458DEF4CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB0E348FA847E7E96DD35B3161E5DB5 /* GTMotionInterchange.framework */,
+				980DADC32518DC94F7DB23920559AE14 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3F6A3E71A5E04DE68BF3E15B5772094 /* Pods-GTMotionAnimator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				53751A953EF002FDE15CAFEFB735F8AA /* Info.plist */,
+				81C80102C83D875854247E992382C59B /* Pods-GTMotionAnimator_Example.modulemap */,
+				DB2CD970CFF4F21352C70875337D5755 /* Pods-GTMotionAnimator_Example-acknowledgements.markdown */,
+				944BE349AF3035DF3F57D2E0198AB479 /* Pods-GTMotionAnimator_Example-acknowledgements.plist */,
+				729486BC2048B973AFD544B93C1ED210 /* Pods-GTMotionAnimator_Example-dummy.m */,
+				988410294DF887F7AAD63ECB670278BF /* Pods-GTMotionAnimator_Example-frameworks.sh */,
+				38AB9F765D52A03E97509C0AF751F043 /* Pods-GTMotionAnimator_Example-resources.sh */,
+				A67B4D7118CAB64523667910CEAF1D94 /* Pods-GTMotionAnimator_Example-umbrella.h */,
+				A2149D19B81A60A958C549C394689B98 /* Pods-GTMotionAnimator_Example.debug.xcconfig */,
+				81C2E575485FA21D9B6D671D934DA80A /* Pods-GTMotionAnimator_Example.release.xcconfig */,
+			);
+			name = "Pods-GTMotionAnimator_Example";
+			path = "Target Support Files/Pods-GTMotionAnimator_Example";
+			sourceTree = "<group>";
+		};
+		E9E7B934872392BA251E152E022A58CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DF56AB18900E63F7055638502A4F9EC /* FBSnapshotTestCase */,
+				266C0966CEB62043C8E7860549F88C12 /* GTCatalog */,
+				66523FF9FE93C5CF9F5CF595A70CE381 /* GTMotionInterchange */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6995E95B69335AD306032F53E16A5A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3F6A3E71A5E04DE68BF3E15B5772094 /* Pods-GTMotionAnimator_Example */,
+				A76823900A30282EFFC0C47ADBAA27BD /* Pods-GTMotionAnimator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AD3626622C4484804C4771DE4091194 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878EF21490B47B950F682943691632EE /* Pods-GTMotionAnimator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28487551574944D92FEA6D0D77AEFA4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3DA98F43AC3CF3B296D7EF793EB50E /* CABasicAnimation+MotionAnimator.h in Headers */,
+				D615A7370DF4226C2B4AD30923BC8275 /* CAMediaTimingFunction+MotionAnimator.h in Headers */,
+				BA99330002D1F86CC73D457CA7132953 /* CATransaction+MotionAnimator.h in Headers */,
+				5369A52A1D3D604272802A1FA833F760 /* GTMAnimatableKeyPaths.h in Headers */,
+				C68454E62989395286764A7112FBB042 /* GTMAnimationRegistrar.h in Headers */,
+				0611D91706D4157C1755C65417C89E74 /* GTMBlockAnimations.h in Headers */,
+				588E3DBD2757494D8360020D4763FF67 /* GTMCoreAnimationTraceable.h in Headers */,
+				D9D5A4110A05D019DADD66E53D6A66E9 /* GTMDragCoefficient.h in Headers */,
+				3E2B748E09CC94B3C4E1F0996F036DFE /* GTMMotionAnimator.h in Headers */,
+				4F3AEC87A256B71C49B35AFCAA067146 /* GTMotionAnimator-umbrella.h in Headers */,
+				C1553A675B0FC22FD5BD4024FA184753 /* GTMotionAnimator.h in Headers */,
+				C08D09B4D277C7D26BBA2D054868E2D8 /* GTMRegisteredAnimation.h in Headers */,
+				70ADFF033E805C687D832EC35B0955F3 /* GTMUIKitValueCoercion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B742DE6F8114678D9B698256F77E10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2CE2D0FBA788B0E58617E7B325C2C8 /* GTCatalog-umbrella.h in Headers */,
+				B8E939A8025F8B0FB4E8A019B7DAA059 /* GTCatalog.h in Headers */,
+				2CC454F9DCAD381E7D8B840E5F514429 /* GTFCatalogExample.h in Headers */,
+				D24C4968BD0855809091466381E2FE7C /* GTFNodeListViewController.h in Headers */,
+				129670419CF6D3695AB142DC656626D6 /* GTFRuntime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
+				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
+				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
+				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8206AB660E4547C1F56026E4647C73C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCF387A86C8ECA12A309124CA2A45E0 /* Pods-GTMotionAnimator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E591D28CE4E5D01B6AFDA3FECA4B0B85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA320279018ADC70ED193738B269035 /* CAMediaTimingFunction+GTMTimingCurve.h in Headers */,
+				C568AD2081B0FDFD5A12F3627B378484 /* GTMAnimationTraits.h in Headers */,
+				9E279F87AD5B75889DC5EEB9A757744C /* GTMMotionCurve.h in Headers */,
+				AC15F118AB4281036127F978D0989F89 /* GTMMotionRepetition.h in Headers */,
+				98A60632B8C48B26F46AD1DF780800CE /* GTMMotionTiming.h in Headers */,
+				09954DE5233F3BA63F59948A70608D6A /* GTMotionInterchange-umbrella.h in Headers */,
+				B1260BC3E7299CE531CD67629EAA1CEC /* GTMotionInterchange.h in Headers */,
+				4D693D85744ABCF4C885ECC644D879A0 /* GTMRepetition.h in Headers */,
+				D0F0988EC6DC899E877EE7A4F862BEE9 /* GTMRepetitionOverTime.h in Headers */,
+				FD2801D02B19F9195840494F6A033BC5 /* GTMRepetitionTraits.h in Headers */,
+				EB743E6B18C18F7790800F2D6053887E /* GTMSpringTimingCurve.h in Headers */,
+				6FCDE726056E666D61BE82F99E764ED2 /* GTMSpringTimingCurveGenerator.h in Headers */,
+				10E49F78576B83D1D1C4422B87069D35 /* GTMSubclassingRestricted.h in Headers */,
+				EE81A4DEE2A2032B1B1CF2EDFEE8ED11 /* GTMTimingCurve.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F7C9A5DC631033E15998EE2A4244513 /* GTMotionAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7133C08C28FCCA7549604462200A0BBC /* Build configuration list for PBXNativeTarget "GTMotionAnimator" */;
+			buildPhases = (
+				65052E6F90CBDF265775413342C11EEC /* Sources */,
+				39394A4E472710E216F7826DDCEE94E9 /* Frameworks */,
+				28487551574944D92FEA6D0D77AEFA4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4935AE549426AA89BBF486C89725D2DA /* PBXTargetDependency */,
+			);
+			name = GTMotionAnimator;
+			productName = GTMotionAnimator;
+			productReference = 5C6DA3E82E66CFE8B41E705A12A3ED33 /* GTMotionAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
+				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
+				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 806FE9CCB6C4F19F3CBAD67D17A2C90E /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0AF60ECAB7BCD088E278E0C0DF722FB /* Build configuration list for PBXNativeTarget "GTCatalog" */;
+			buildPhases = (
+				18D8D957CD17C097BAE100FC59A74B19 /* Sources */,
+				75F159700EDD7507E7CC58D53A8086F5 /* Frameworks */,
+				59B742DE6F8114678D9B698256F77E10 /* Headers */,
+				EF042B9FC353BBFB2983A54CCE99E2E3 /* Copy . Public Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTCatalog;
+			productName = GTCatalog;
+			productReference = 4523447E34012496F8C2E4C1AF50F8B1 /* GTCatalog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69BBFB0AEAD6861A36655ED29F91F75F /* GTMotionInterchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA364ADCE5255C34BDA777B11D438B8E /* Build configuration list for PBXNativeTarget "GTMotionInterchange" */;
+			buildPhases = (
+				1579366342B7CAE1C4546D9A6D2E7D67 /* Sources */,
+				A22566D579F4D98CFBC93C877E345EB3 /* Frameworks */,
+				E591D28CE4E5D01B6AFDA3FECA4B0B85 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMotionInterchange;
+			productName = GTMotionInterchange;
+			productReference = 0577CB96721F78EF0F3DFCBFEAD1809F /* GTMotionInterchange.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76FB7DA1DC4EBA26B4C694B9DB33435F /* Pods-GTMotionAnimator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D948724BA390221751F7F7F155329D /* Build configuration list for PBXNativeTarget "Pods-GTMotionAnimator_Tests" */;
+			buildPhases = (
+				6E0863261DCEA632ADF232EBE7148EF0 /* Sources */,
+				D5B28F80E7A218D5A20A22D1AE23F2AB /* Frameworks */,
+				B8206AB660E4547C1F56026E4647C73C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E0320FAC5EA9F8DD92811DEC6A30C2A /* PBXTargetDependency */,
+				E529F4343A5755A9DEDF24035836BF34 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTMotionAnimator_Tests";
+			productName = "Pods-GTMotionAnimator_Tests";
+			productReference = 8C6DA8281CB03F17A5D837F8993DB0CA /* Pods_GTMotionAnimator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1C42D536BFAD0D3A56B43CDD6245084 /* Pods-GTMotionAnimator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCF4924D9BEB2652FE07835B265CA82 /* Build configuration list for PBXNativeTarget "Pods-GTMotionAnimator_Example" */;
+			buildPhases = (
+				574D272D7CD9515FB4A37BD81D1E6EC8 /* Sources */,
+				5C8319DAB9358E744580F7E6200E4B89 /* Frameworks */,
+				0AD3626622C4484804C4771DE4091194 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C992D8A1F84573C323F096165E4C462C /* PBXTargetDependency */,
+				8767C681F7452FF4546F8E38204F744B /* PBXTargetDependency */,
+				08D6435190D3D508404E1E773574E344 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTMotionAnimator_Example";
+			productName = "Pods-GTMotionAnimator_Example";
+			productReference = BEB86C1605D9AB314F0AD7A62A78C3BE /* Pods_GTMotionAnimator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D4F1AA00D00ADF655BCA0B8149EE309C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
+				688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */,
+				2F7C9A5DC631033E15998EE2A4244513 /* GTMotionAnimator */,
+				69BBFB0AEAD6861A36655ED29F91F75F /* GTMotionInterchange */,
+				C1C42D536BFAD0D3A56B43CDD6245084 /* Pods-GTMotionAnimator_Example */,
+				76FB7DA1DC4EBA26B4C694B9DB33435F /* Pods-GTMotionAnimator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1579366342B7CAE1C4546D9A6D2E7D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FAD7229FC3AC1FACCA7AABB424D7FA /* CAMediaTimingFunction+GTMTimingCurve.m in Sources */,
+				8C6DA20C695AF63D1F4EDDB16594E73D /* GTMAnimationTraits.m in Sources */,
+				62475E1826F1E10CC504093EF5D84D35 /* GTMMotionCurve.m in Sources */,
+				6A2F746B07F12BB6E323F745FF73C4BF /* GTMotionInterchange-dummy.m in Sources */,
+				B41C5CA0F36CC9442E401B523C463A3C /* GTMRepetition.m in Sources */,
+				BF9AA01F96EA484E42C76AD8D760CAA4 /* GTMRepetitionOverTime.m in Sources */,
+				6B013B860B6C6578F16A984C8F68D114 /* GTMSpringTimingCurve.m in Sources */,
+				31FCA1F27211A60D114411895A4DFC32 /* GTMSpringTimingCurveGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D8D957CD17C097BAE100FC59A74B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F721A8CD8BDBA81467EAFA2A54BD7017 /* GTCatalog-dummy.m in Sources */,
+				A9316D7CF0AC41BD13875F6397791D75 /* GTFNodeListViewController.m in Sources */,
+				5A460FE4638EC0B6348B15055E6DC56E /* GTFRuntime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574D272D7CD9515FB4A37BD81D1E6EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D1473333CD59B962DB669C7D8DCEDA /* Pods-GTMotionAnimator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65052E6F90CBDF265775413342C11EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A894AE3433D3DAF9F9020D0FF98658C /* CABasicAnimation+MotionAnimator.m in Sources */,
+				51E6707FF4E077AF5B8B989BD1B9633E /* CAMediaTimingFunction+MotionAnimator.m in Sources */,
+				0A92335BC9B31EE193AC79CD395C60D5 /* CATransaction+MotionAnimator.m in Sources */,
+				C08D7826A7AAC983C5BBB166A3751FE1 /* GTMAnimatableKeyPaths.m in Sources */,
+				1B9BEDB26F0E788322A4F68AA3114733 /* GTMAnimationRegistrar.m in Sources */,
+				8B37AD1A9DD046065E71D104355B9D5C /* GTMBlockAnimations.m in Sources */,
+				29528176556F20BC1AEBC225D371E81A /* GTMDragCoefficient.m in Sources */,
+				8496ED857F5BC6CB2C1F8101D79D95AD /* GTMMotionAnimator.m in Sources */,
+				9AF4D20204565DE7D25E006893AE3D9F /* GTMotionAnimator-dummy.m in Sources */,
+				B60359804EB45AB9F622CDE105002807 /* GTMRegisteredAnimation.m in Sources */,
+				3E02DB8A75A039A9A5C11A88681E18FA /* GTMUIKitValueCoercion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0863261DCEA632ADF232EBE7148EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E3D16C0B69F5376FCA7B08D33DA635 /* Pods-GTMotionAnimator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
+				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
+				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
+				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08D6435190D3D508404E1E773574E344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMotionInterchange;
+			target = 69BBFB0AEAD6861A36655ED29F91F75F /* GTMotionInterchange */;
+			targetProxy = F1157F81858D479838A78AFE11C49A9A /* PBXContainerItemProxy */;
+		};
+		0E0320FAC5EA9F8DD92811DEC6A30C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
+			targetProxy = A7573FE7ACA29E064D1837CBDDAAA3A4 /* PBXContainerItemProxy */;
+		};
+		4935AE549426AA89BBF486C89725D2DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMotionInterchange;
+			target = 69BBFB0AEAD6861A36655ED29F91F75F /* GTMotionInterchange */;
+			targetProxy = 9FF0086C16012FE026D053F084E924B3 /* PBXContainerItemProxy */;
+		};
+		8767C681F7452FF4546F8E38204F744B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMotionAnimator;
+			target = 2F7C9A5DC631033E15998EE2A4244513 /* GTMotionAnimator */;
+			targetProxy = 270765B649C0B9C1B45B741A8C689370 /* PBXContainerItemProxy */;
+		};
+		C992D8A1F84573C323F096165E4C462C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTCatalog;
+			target = 688A67C0E5F60FA3D9A0A044F5BC385B /* GTCatalog */;
+			targetProxy = 3D0ED74B64677ABD3655574F7889D9BA /* PBXContainerItemProxy */;
+		};
+		E529F4343A5755A9DEDF24035836BF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTMotionAnimator_Example";
+			target = C1C42D536BFAD0D3A56B43CDD6245084 /* Pods-GTMotionAnimator_Example */;
+			targetProxy = 835ADDBCE81C65E815F2D000F24533EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0972A1547892CDD56069A25D8CBFF19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2149D19B81A60A958C549C394689B98 /* Pods-GTMotionAnimator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMotionAnimator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMotionAnimator_Example/Pods-GTMotionAnimator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1617FF2B268E64AD35CA5DDB61251C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A549375DAFC8F53A7C9E379BDAEE8AF /* GTCatalog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTCatalog/GTCatalog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTCatalog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTCatalog/GTCatalog.modulemap";
+				PRODUCT_MODULE_NAME = GTCatalog;
+				PRODUCT_NAME = GTCatalog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DF66DA57CD7D2BB64D72F4172B4BDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A1E8CDACBD0F00E94361DDD361904D /* GTMotionInterchange.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMotionInterchange/GTMotionInterchange-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMotionInterchange/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMotionInterchange/GTMotionInterchange.modulemap";
+				PRODUCT_MODULE_NAME = GTMotionInterchange;
+				PRODUCT_NAME = GTMotionInterchange;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9EE0E840D30FA929277D11001E8959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C2E575485FA21D9B6D671D934DA80A /* Pods-GTMotionAnimator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMotionAnimator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMotionAnimator_Example/Pods-GTMotionAnimator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CC5956F801F7DC7B1DACA3548DF61C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648254035F38A41CBCF4CBA1A7FADF8B /* GTMotionAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMotionAnimator/GTMotionAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMotionAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMotionAnimator/GTMotionAnimator.modulemap";
+				PRODUCT_MODULE_NAME = GTMotionAnimator;
+				PRODUCT_NAME = GTMotionAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FF085607135649541BABAD664CA6515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A1E8CDACBD0F00E94361DDD361904D /* GTMotionInterchange.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMotionInterchange/GTMotionInterchange-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMotionInterchange/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMotionInterchange/GTMotionInterchange.modulemap";
+				PRODUCT_MODULE_NAME = GTMotionInterchange;
+				PRODUCT_NAME = GTMotionInterchange;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A32FE3040DBA7689E3815C8DE3F6803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C0231E453169BF776F86EC7DE26A6C9 /* Pods-GTMotionAnimator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMotionAnimator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMotionAnimator_Tests/Pods-GTMotionAnimator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B8AC127A004AAA1A5A0F7272D201A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648254035F38A41CBCF4CBA1A7FADF8B /* GTMotionAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMotionAnimator/GTMotionAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMotionAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMotionAnimator/GTMotionAnimator.modulemap";
+				PRODUCT_MODULE_NAME = GTMotionAnimator;
+				PRODUCT_NAME = GTMotionAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FCF3A730B5B5572D051206D9AA68DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890DDA4CB5225A7E1E4F39CE93349636 /* Pods-GTMotionAnimator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMotionAnimator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMotionAnimator_Tests/Pods-GTMotionAnimator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A38749C15819B02B742737E489EE0EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DEB05E9DD67DD5AB15C5B8B70E333A0 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DEB05E9DD67DD5AB15C5B8B70E333A0 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F417FCC1BE6A92498BD4D12C379A4791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A549375DAFC8F53A7C9E379BDAEE8AF /* GTCatalog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTCatalog/GTCatalog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTCatalog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTCatalog/GTCatalog.modulemap";
+				PRODUCT_MODULE_NAME = GTCatalog;
+				PRODUCT_NAME = GTCatalog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7133C08C28FCCA7549604462200A0BBC /* Build configuration list for PBXNativeTarget "GTMotionAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8AC127A004AAA1A5A0F7272D201A95 /* Debug */,
+				4CC5956F801F7DC7B1DACA3548DF61C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D948724BA390221751F7F7F155329D /* Build configuration list for PBXNativeTarget "Pods-GTMotionAnimator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A32FE3040DBA7689E3815C8DE3F6803 /* Debug */,
+				8FCF3A730B5B5572D051206D9AA68DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0AF60ECAB7BCD088E278E0C0DF722FB /* Build configuration list for PBXNativeTarget "GTCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F417FCC1BE6A92498BD4D12C379A4791 /* Debug */,
+				1617FF2B268E64AD35CA5DDB61251C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCF4924D9BEB2652FE07835B265CA82 /* Build configuration list for PBXNativeTarget "Pods-GTMotionAnimator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0972A1547892CDD56069A25D8CBFF19B /* Debug */,
+				2B9EE0E840D30FA929277D11001E8959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA364ADCE5255C34BDA777B11D438B8E /* Build configuration list for PBXNativeTarget "GTMotionInterchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF66DA57CD7D2BB64D72F4172B4BDB1 /* Debug */,
+				4FF085607135649541BABAD664CA6515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38749C15819B02B742737E489EE0EEB /* Debug */,
+				AB74B6A60AA3078D80BB7D633DFBCA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

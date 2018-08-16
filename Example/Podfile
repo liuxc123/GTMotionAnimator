@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'GTMotionAnimator_Example' do
+  pod 'GTCatalog'
   pod 'GTMotionAnimator', :path => '../'
 
   target 'GTMotionAnimator_Tests' do
